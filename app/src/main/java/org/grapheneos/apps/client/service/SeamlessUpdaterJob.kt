@@ -112,7 +112,7 @@ class SeamlessUpdaterJob : JobService() {
     }
 
     override fun onStopJob(params: JobParameters?): Boolean {
-        Log.d(TAG, "onStopJob, reason ${params?.stopReason}")
+        Log.d(TAG, "onStopJob, reason dunno")
         return true
     }
 }
